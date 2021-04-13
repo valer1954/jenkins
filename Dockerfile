@@ -17,7 +17,7 @@ pipeline {
             steps {
                 echo " ============== start building image =================="
                
-                	sh 'docker build -t -f Dockerfile.txt vale . '
+                	sh 'docker build -t  vale . '
                 }
             }
         }
